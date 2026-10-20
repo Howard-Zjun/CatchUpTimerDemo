@@ -1,0 +1,21 @@
+{
+  "name": "CatchUpTimer",
+  "version": "0.0.1",
+  "summary": "An iOS timer that catches up on missed callbacks when returning to the foreground.",
+  "description": "CatchUpTimer is a Swift timer for iOS that tracks missed intervals\nwhile the app is in the background. When the app becomes active,\nit can replay all missed callbacks or deliver only the latest one.\nIt supports starting, pausing, resuming, and cancelling the timer.",
+  "homepage": "https://github.com/Howard-Zjun/CatchUpTimer",
+  "license": "MIT",
+  "authors": {
+    "Howard": "2548795196@qq.com"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "git": "https://github.com/Howard-Zjun/CatchUpTimer.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "Sources/**/*.swift",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

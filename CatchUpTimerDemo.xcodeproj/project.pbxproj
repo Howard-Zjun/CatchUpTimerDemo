@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 110;
+	objectVersion = 100;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,11 @@
 		39BE242130874F7200DF1BF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BE241330874F7200DF1BF1 /* AppDelegate.swift */; };
 		39BE242230874F7200DF1BF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BE241A30874F7200DF1BF1 /* SceneDelegate.swift */; };
 		39BE242330874F7200DF1BF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BE241B30874F7200DF1BF1 /* ViewController.swift */; };
+		9C06A2D33EDFA8248F94DB72 /* Pods_CatchUpTimerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02B5513E66E659EE00EDF65 /* Pods_CatchUpTimerDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2364E17853B4C3EFD26FA480 /* Pods-CatchUpTimerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchUpTimerDemo.release.xcconfig"; path = "Target Support Files/Pods-CatchUpTimerDemo/Pods-CatchUpTimerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		39BE23FB30874F6900DF1BF1 /* CatchUpTimerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchUpTimerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39BE241330874F7200DF1BF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39BE241430874F7200DF1BF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -24,22 +26,37 @@
 		39BE241830874F7200DF1BF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39BE241A30874F7200DF1BF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		39BE241B30874F7200DF1BF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACF1B2AA6E7D4ECA099DE762 /* Pods-CatchUpTimerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchUpTimerDemo.debug.xcconfig"; path = "Target Support Files/Pods-CatchUpTimerDemo/Pods-CatchUpTimerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E02B5513E66E659EE00EDF65 /* Pods_CatchUpTimerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatchUpTimerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		39BE23F830874F6900DF1BF1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
+				9C06A2D33EDFA8248F94DB72 /* Pods_CatchUpTimerDemo.framework in Frameworks */,
 			);
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		364C7E14646042320121F587 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACF1B2AA6E7D4ECA099DE762 /* Pods-CatchUpTimerDemo.debug.xcconfig */,
+				2364E17853B4C3EFD26FA480 /* Pods-CatchUpTimerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		39BE23F230874F6900DF1BF1 = {
 			isa = PBXGroup;
 			children = (
 				39BE241C30874F7200DF1BF1 /* CatchUpTimerDemo */,
 				39BE23FC30874F6900DF1BF1 /* Products */,
+				364C7E14646042320121F587 /* Pods */,
+				CB9CDE4CCAE1C3BA1EEA1A39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +82,14 @@
 			path = CatchUpTimerDemo;
 			sourceTree = "<group>";
 		};
+		CB9CDE4CCAE1C3BA1EEA1A39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E02B5513E66E659EE00EDF65 /* Pods_CatchUpTimerDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -72,11 +97,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39BE240E30874F6B00DF1BF1 /* Build configuration list for PBXNativeTarget "CatchUpTimerDemo" */;
 			buildPhases = (
+				26D0012007C25C2E4CF02008 /* [CP] Check Pods Manifest.lock */,
 				39BE23F730874F6900DF1BF1 /* Sources */,
 				39BE23F830874F6900DF1BF1 /* Frameworks */,
 				39BE23F930874F6900DF1BF1 /* Resources */,
+				E2B7C692DD7DEC46F9EFD7E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
+			);
+			dependencies = (
 			);
 			name = CatchUpTimerDemo;
 			productName = CatchUpTimerDemo;
@@ -128,6 +157,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26D0012007C25C2E4CF02008 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatchUpTimerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2B7C692DD7DEC46F9EFD7E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatchUpTimerDemo/Pods-CatchUpTimerDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatchUpTimerDemo/Pods-CatchUpTimerDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CatchUpTimerDemo/Pods-CatchUpTimerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		39BE23F730874F6900DF1BF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -159,8 +230,9 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		39BE240F30874F6B00DF1BF1 /* Debug configuration for PBXNativeTarget "CatchUpTimerDemo" */ = {
+		39BE240F30874F6B00DF1BF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACF1B2AA6E7D4ECA099DE762 /* Pods-CatchUpTimerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -191,8 +263,9 @@
 			};
 			name = Debug;
 		};
-		39BE241030874F6B00DF1BF1 /* Release configuration for PBXNativeTarget "CatchUpTimerDemo" */ = {
+		39BE241030874F6B00DF1BF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2364E17853B4C3EFD26FA480 /* Pods-CatchUpTimerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -223,7 +296,7 @@
 			};
 			name = Release;
 		};
-		39BE241130874F6B00DF1BF1 /* Debug configuration for PBXProject "CatchUpTimerDemo" */ = {
+		39BE241130874F6B00DF1BF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -287,7 +360,7 @@
 			};
 			name = Debug;
 		};
-		39BE241230874F6B00DF1BF1 /* Release configuration for PBXProject "CatchUpTimerDemo" */ = {
+		39BE241230874F6B00DF1BF1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -350,21 +423,20 @@
 		39BE23F630874F6900DF1BF1 /* Build configuration list for PBXProject "CatchUpTimerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39BE241130874F6B00DF1BF1 /* Debug configuration for PBXProject "CatchUpTimerDemo" */,
-				39BE241230874F6B00DF1BF1 /* Release configuration for PBXProject "CatchUpTimerDemo" */,
+				39BE241130874F6B00DF1BF1 /* Debug */,
+				39BE241230874F6B00DF1BF1 /* Release */,
 			);
 			defaultConfigurationName = Release;
 		};
 		39BE240E30874F6B00DF1BF1 /* Build configuration list for PBXNativeTarget "CatchUpTimerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39BE240F30874F6B00DF1BF1 /* Debug configuration for PBXNativeTarget "CatchUpTimerDemo" */,
-				39BE241030874F6B00DF1BF1 /* Release configuration for PBXNativeTarget "CatchUpTimerDemo" */,
+				39BE240F30874F6B00DF1BF1 /* Debug */,
+				39BE241030874F6B00DF1BF1 /* Release */,
 			);
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
 	rootObject = 39BE23F330874F6900DF1BF1 /* Project object */;
-	validationLevel = 1;
 }

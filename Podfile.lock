@@ -1,0 +1,23 @@
+PODS:
+  - CatchUpTimer (0.0.1)
+  - SnapKit (5.7.1)
+
+DEPENDENCIES:
+  - CatchUpTimer (from `./CatchUpTimer`)
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  CatchUpTimer:
+    :path: "./CatchUpTimer"
+
+SPEC CHECKSUMS:
+  CatchUpTimer: fabef99f191ae543bb2ba0ae67e1c45976c0d420
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+
+PODFILE CHECKSUM: bae683dad1610dfd23d58a7630ff6014ecc89f29
+
+COCOAPODS: 1.17.0

@@ -1,0 +1,6 @@
+framework module CatchUpTimer {
+  umbrella header "CatchUpTimer-umbrella.h"
+
+  export *
+  module * { export * }
+}
