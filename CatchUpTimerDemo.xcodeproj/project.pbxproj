@@ -6,30 +6,25 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		39BE241D30874F7200DF1BF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39BE241430874F7200DF1BF1 /* Assets.xcassets */; };
+		39BE241F30874F7200DF1BF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39BE241730874F7200DF1BF1 /* LaunchScreen.storyboard */; };
+		39BE242030874F7200DF1BF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39BE241930874F7200DF1BF1 /* Main.storyboard */; };
+		39BE242130874F7200DF1BF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BE241330874F7200DF1BF1 /* AppDelegate.swift */; };
+		39BE242230874F7200DF1BF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BE241A30874F7200DF1BF1 /* SceneDelegate.swift */; };
+		39BE242330874F7200DF1BF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BE241B30874F7200DF1BF1 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		39BE23FB30874F6900DF1BF1 /* CatchUpTimerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchUpTimerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39BE241330874F7200DF1BF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39BE241430874F7200DF1BF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39BE241530874F7200DF1BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39BE241630874F7200DF1BF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39BE241830874F7200DF1BF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39BE241A30874F7200DF1BF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		39BE241B30874F7200DF1BF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		39BE240D30874F6B00DF1BF1 /* Exceptions for "CatchUpTimerDemo" folder in "CatchUpTimerDemo" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 39BE23FA30874F6900DF1BF1 /* CatchUpTimerDemo */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		39BE23FD30874F6900DF1BF1 /* CatchUpTimerDemo */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				39BE240D30874F6B00DF1BF1 /* Exceptions for "CatchUpTimerDemo" folder in "CatchUpTimerDemo" target */,
-			);
-			path = CatchUpTimerDemo;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		39BE23F830874F6900DF1BF1 /* Frameworks */ = {
@@ -43,7 +38,7 @@
 		39BE23F230874F6900DF1BF1 = {
 			isa = PBXGroup;
 			children = (
-				39BE23FD30874F6900DF1BF1 /* CatchUpTimerDemo */,
+				39BE241C30874F7200DF1BF1 /* CatchUpTimerDemo */,
 				39BE23FC30874F6900DF1BF1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +49,20 @@
 				39BE23FB30874F6900DF1BF1 /* CatchUpTimerDemo.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		39BE241C30874F7200DF1BF1 /* CatchUpTimerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				39BE241330874F7200DF1BF1 /* AppDelegate.swift */,
+				39BE241430874F7200DF1BF1 /* Assets.xcassets */,
+				39BE241530874F7200DF1BF1 /* Info.plist */,
+				39BE241730874F7200DF1BF1 /* LaunchScreen.storyboard */,
+				39BE241930874F7200DF1BF1 /* Main.storyboard */,
+				39BE241A30874F7200DF1BF1 /* SceneDelegate.swift */,
+				39BE241B30874F7200DF1BF1 /* ViewController.swift */,
+			);
+			path = CatchUpTimerDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,9 +77,6 @@
 				39BE23F930874F6900DF1BF1 /* Resources */,
 			);
 			buildRules = (
-			);
-			fileSystemSynchronizedGroups = (
-				39BE23FD30874F6900DF1BF1 /* CatchUpTimerDemo */,
 			);
 			name = CatchUpTimerDemo;
 			productName = CatchUpTimerDemo;
@@ -115,6 +121,9 @@
 		39BE23F930874F6900DF1BF1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				39BE241D30874F7200DF1BF1 /* Assets.xcassets in Resources */,
+				39BE241F30874F7200DF1BF1 /* LaunchScreen.storyboard in Resources */,
+				39BE242030874F7200DF1BF1 /* Main.storyboard in Resources */,
 			);
 		};
 /* End PBXResourcesBuildPhase section */
@@ -123,9 +132,31 @@
 		39BE23F730874F6900DF1BF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
+				39BE242130874F7200DF1BF1 /* AppDelegate.swift in Sources */,
+				39BE242230874F7200DF1BF1 /* SceneDelegate.swift in Sources */,
+				39BE242330874F7200DF1BF1 /* ViewController.swift in Sources */,
 			);
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		39BE241730874F7200DF1BF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39BE241630874F7200DF1BF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		39BE241930874F7200DF1BF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39BE241830874F7200DF1BF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		39BE240F30874F6B00DF1BF1 /* Debug configuration for PBXNativeTarget "CatchUpTimerDemo" */ = {
